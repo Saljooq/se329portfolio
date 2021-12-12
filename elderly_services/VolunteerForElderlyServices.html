@@ -91,66 +91,30 @@
                   <br>
                    <!-- navbar ends here -->
         <br>
-        <h1>Volunteer for Elderly Services</h1>
+        <h1 style="text-indent: 5px; margin-left: 10px; margin-right: 50%;" >Volunteer for Elderly Services</h1>
 
         <br/>
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Class</th>
-                <th scope="col">Start Date</th>
-                <th scope="col">End Date</th>
-                <th scope="col">Time</th>
-                <th scope="col">Time/Week</th>
-                <th scope="col">Teacher</th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">French 102 TA</th>
-                <td>May 20</td>
-                <td>July 27</td>
-                <td>3pm - 5pm</td>
-                <td>16 hours</td>
-                <td>Prof. Gaffar</td>
-                <td><button class="btn btn-primary" onclick="window.location.href='../success.html'">Apply</button></td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <th scope="row">Spanish 101 TA</th>
-                <td>May 20</td>
-                <td>July 27</td>
-                <td>1pm - 3pm</td>
-                <td>14 hours</td>
-                <td>Prof. Doe</td>
-                <td><button class="btn btn-primary" onclick="window.location.href='../success.html'">Apply</button></td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <th scope="row">Spanish 102 TA</th>
-                <td>May 20</td>
-                <td>July 27</td>
-                <td>3pm - 5pm</td>
-                <td>16 hours</td>
-                <td>Prof. Doe</td>
-                <td><button class="btn btn-primary" onclick="window.location.href='../success.html'">Apply</button></td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <th scope="row">Finances TA</th>
-                <td>May 20</td>
-                <td>July 27</td>
-                <td>10am - 11am</td>
-                <td>12 hours</td>
-                <td>Prof. Nyguen</td>
-                <td><button class="btn btn-primary" onclick="window.location.href='../success.html'">Apply</button></td>
-              </tr>
-            </tbody>
-          </table>
+        <form style="text-indent: 5px; margin-left: 10px; margin-right: 50%;" class="form-label px-2"  >
+            <label>Name:</label>
+            <input class="form-control" type="text">
+            <br>
+            <label>Contact Information: (Phone number)</label>
+            <input type="text" class="form-control" >
+            <br>
+            <label>Previous Experience:</label>
+            <input type="text" class="form-control" >
+            <br>
+            <label>Service volunteering for:</label>
+            <select class="form-control" name="dropdown">
+                <option>In-home Care Taking</option>
+                <option>In-home Cleaning</option>
+                <option>Grocery Pick-up</option>
+            </select>
+            <br>
+            <label>Availability:</label>
+            <input type="datetime-local" />
+        </form>
+        <button  style="text-indent: 5px; margin-left: 10px; "class="btn btn-primary" onclick="window.location.href='success.html'"> Post Shelter Vacancy</button>
         <br>
         <br>
         <br>
